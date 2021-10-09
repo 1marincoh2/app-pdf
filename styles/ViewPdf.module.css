@@ -1,0 +1,44 @@
+.menuButton {
+    margin-right: 2px;
+}
+
+
+.paper {
+
+
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.paper {
+    margin: 3.5rem;
+    padding: 2.5rem;
+    text-align: left;
+    border: 1px solid #FF4F4E;
+    border-radius: 10px;
+    width:15rem;
+    height: 20rem;
+    display: flex;
+    flexWrap: wrap;
+
+}
+
+.paper:hover,
+.paper:focus,
+.paper:active {
+    color: #7EDA3D;
+    border-color: #0070f3;
+
+}
+.AppBar{
+
+    background: red;
+}
+
+
+
+
+
